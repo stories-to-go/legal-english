@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W2T7NTPHXZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-W2T7NTPHXZ');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore five topics on breach and the standard of care in negligence. Begin with Breach of Duty, develop the reasonable-person and professional standards, then apply them to risk and precautions. Each topic offers study guides in four languages and videos on YouTube and Bilibili.">
+  <title>The Standard of Care | Legal English</title>
+  <style>
+    :root {
+      --navy: #211c36;
+      --navy-soft: #322947;
+      --ink: #20252b;
+      --muted: #69717a;
+      --gold: #b9924f;
+      --gold-light: #d8bd83;
+      --ivory: #f2f4f5;
+      --line: #d5d9dc;
+      --shadow: 0 22px 55px rgba(13, 27, 42, 0.09);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--ivory);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a { color: inherit; }
+
+    .topbar {
+      border-bottom: 1px solid rgba(216, 189, 131, 0.24);
+      color: rgba(255, 255, 255, 0.78);
+      background: var(--navy);
+    }
+
+    .topbar-inner {
+      width: min(1120px, calc(100% - 48px));
+      min-height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      margin: 0 auto;
+    }
+
+    .brand {
+      color: var(--gold-light);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 18px;
+      letter-spacing: 0.08em;
+      text-decoration: none;
+    }
+
+    .back-link {
+      color: rgba(255, 255, 255, 0.66);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .back-link::before {
+      content: "←";
+      margin-right: 10px;
+      color: var(--gold-light);
+      font-size: 16px;
+    }
+
+    .back-link:hover,
+    .back-link:focus-visible { color: #fff; outline: none; }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      color: #fff;
+      background: linear-gradient(135deg, #211c36 0%, #322947 100%);
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      width: min(1120px, calc(100% - 48px));
+      margin: 0 auto;
+      padding: 78px 0 82px;
+    }
+
+    .eyebrow {
+      margin: 0 0 20px;
+      color: var(--gold-light);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.26em;
+      text-transform: uppercase;
+    }
+
+    h1, h2, h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 400;
+    }
+
+    h1 {
+      max-width: 760px;
+      margin: 0;
+      font-size: clamp(48px, 7vw, 78px);
+      line-height: 1.04;
+      letter-spacing: -0.025em;
+    }
+
+    .gold-rule {
+      width: 88px;
+      height: 2px;
+      margin: 28px 0 0;
+      background: var(--gold);
+    }
+
+    main {
+      width: min(1120px, calc(100% - 48px));
+      margin: 0 auto;
+      padding: 72px 0 92px;
+    }
+
+    .section-head {
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .section-head h2 {
+      margin: 0;
+      color: var(--navy);
+      font-size: clamp(34px, 4.5vw, 50px);
+      line-height: 1.12;
+    }
+
+    .resources {
+      border-bottom: 1px solid var(--line);
+    }
+
+    .resource {
+      display: grid;
+      grid-template-columns: 76px minmax(0, 1fr) auto;
+      gap: 28px;
+      align-items: center;
+      min-height: 150px;
+      padding: 28px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .resources .resource:first-child { border-top: 0; }
+
+    .resource-number {
+      align-self: start;
+      padding-top: 8px;
+      color: var(--gold);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 17px;
+    }
+
+    .resource h3 {
+      margin: 0;
+      color: var(--navy);
+      font-size: 29px;
+      line-height: 1.2;
+    }
+
+    .resource-action {
+      width: 190px;
+      min-width: 190px;
+      min-height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 15px 20px;
+      border: 1px solid var(--navy);
+      color: #fff;
+      background: var(--navy);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+    }
+
+    .resource-action::after {
+      content: "→";
+      margin-left: 12px;
+      color: var(--gold-light);
+      font-size: 15px;
+    }
+
+    .resource-action:hover,
+    .resource-action:focus-visible {
+      transform: translateY(-2px);
+      color: #fff;
+      background: var(--navy-soft);
+      outline: none;
+    }
+
+    .resource-action:hover::after,
+    .resource-action:focus-visible::after { color: var(--gold-light); }
+
+    .resource-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .resource-actions .resource-action {
+      width: 190px;
+      min-width: 190px;
+    }
+
+    @media (max-width: 760px) {
+      .topbar-inner,
+      .hero-inner,
+      main { width: min(100% - 32px, 1120px); }
+      .topbar-inner { min-height: 62px; }
+      .hero-inner { padding: 66px 0 72px; }
+      .resource { grid-template-columns: 46px minmax(0, 1fr); gap: 14px; }
+      .resource-action { grid-column: 2; width: 100%; min-width: 0; margin-top: 8px; }
+      .resource-actions { grid-column: 2; width: 100%; }
+      .resource-actions .resource-action { width: 100%; min-width: 0; }
+    }
+
+    @media (max-width: 460px) {
+      .brand { font-size: 16px; }
+      .back-link { font-size: 10px; }
+      .resource { grid-template-columns: 1fr; }
+      .resource-number { padding-top: 0; }
+      .resource-action { grid-column: 1; }
+      .resource-actions { grid-column: 1; flex-direction: column; }
+    }
+
+    .resource-action::after, .back-link::before { content: none; }
+    .resource-action, .resource-actions .resource-action { width: 230px; min-width: 230px; font-size: .875rem; letter-spacing: .08em; }
+    .back-link { font-size: .875rem; }
+    a:focus-visible, .resource-action:focus-visible, .back-link:focus-visible { outline: 3px solid var(--gold); outline-offset: 4px; }
+    h1 { overflow-wrap: anywhere; }
+    @media(max-width:760px) { .resource-action, .resource-actions .resource-action { width:100%; min-width:0; } }
+    @media(max-width:460px) { .topbar-inner { flex-wrap:wrap; padding:16px 0; gap:14px; } .back-link { font-size:.875rem; } }
+    @media(prefers-reduced-motion:reduce) { .resource-action { transition:none; } .resource-action:hover, .resource-action:focus-visible { transform:none; } }
+  
+    :root { --navy:#152c46; --navy-soft:#253e59; --gold:#ad925e; --gold-light:#d8bd83; --ivory:#fff; }
+    body { background:#fff; }
+    .topbar { background:#fff; color:var(--navy); border-bottom:0; }
+    .topbar-inner { align-items:flex-end; padding-top:24px; padding-bottom:10px; border-bottom:1px solid var(--gold); }
+    .brand, .back-link { color:var(--navy); }
+    .brand { display:flex; align-items:flex-end; gap:12px; font-size:20px; letter-spacing:0; }
+    .tort-mark { width:37px; height:40px; object-fit:contain; opacity:.35; }
+    .back-link:hover { color:var(--navy-soft); }
+    .hero { background:#fff; color:var(--navy); }
+    .hero-inner { padding:44px 0 30px; }
+    .eyebrow { display:none; }
+    h1 { font-size:clamp(34px,5vw,60px); line-height:1.12; overflow-wrap:normal; }
+    main { padding:24px 0 64px; }
+    .section-head h2 { font-size:32px; }
+    .resource { min-height:110px; }
+    .resource h3 { font-size:26px; }
+    .resource-action::after { content:"→"; }
+    .resource-number { font-size:16px; }
+    @media(max-width:460px) { .topbar-inner { flex-wrap:nowrap; gap:12px; } .brand { font-size:17px; gap:7px; } .tort-mark { width:30px; height:33px; } .back-link { font-size:14px; letter-spacing:.03em; } }
+
+  
+    html { scroll-behavior:smooth; scroll-padding-top:24px; }
+    .intro { max-width:760px; margin:20px 0 0; color:var(--muted); font-size:17px; line-height:1.75; }
+    .topic-picker { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin:0 0 48px; }
+    .topic-choice { display:flex; gap:18px; align-items:center; justify-content:space-between; padding:22px 24px; min-height:92px; background:var(--navy); color:#fff; border:1px solid var(--gold); border-bottom:2px solid var(--gold); text-decoration:none; font:24px/1.35 Georgia,serif; }
+    .topic-choice:hover, .topic-choice:focus-visible { background:var(--navy-soft); color:#fff; border-color:var(--gold); }
+    .topic-choice .step { display:block; font:12px/1.5 Arial,sans-serif; letter-spacing:.12em; color:var(--gold-light); margin-bottom:4px; }
+    .arrow { color:var(--gold-light); flex-shrink:0; }
+    .topic-section { margin:0 0 44px; padding:30px 0 38px; border-top:1px solid var(--gold); scroll-margin-top:24px; }
+    .topic-section h2 { font-size:clamp(27px,4vw,38px); color:var(--navy); margin:0 0 12px; }
+    .topic-description { color:var(--muted); max-width:820px; line-height:1.75; margin:0 0 24px; }
+    .downloads { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
+    .downloads .resource-action,.video-links .resource-action { width:100%; min-width:0; text-transform:none; letter-spacing:.02em; font-size:15px; padding:16px; min-height:62px; }
+    .video-links { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin-top:12px; }
+    .downloads .resource-action, .video-links .resource-action { background:var(--navy); color:#fff; border-color:var(--gold); }
+    .downloads .resource-action:hover, .downloads .resource-action:focus-visible, .video-links .resource-action:hover, .video-links .resource-action:focus-visible { background:var(--navy-soft); color:#fff; }
+    .section-nav { display:flex; flex-wrap:wrap; gap:18px; margin-top:22px; }
+    .section-nav a { color:var(--navy); text-underline-offset:4px; font-size:14px; line-height:1.8; }
+    .page-footer { border-top:1px solid var(--line); padding:24px 0; color:var(--muted); font-size:13px; }
+    @media(max-width:760px) { .downloads { grid-template-columns:repeat(2,minmax(0,1fr)); } .topic-choice {font-size:21px;padding:18px;} }
+    @media(max-width:520px) { .topic-picker { grid-template-columns:1fr; } .video-links {grid-template-columns:1fr;} .downloads .resource-action {font-size:14px;padding:13px;} }
+    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+
+</style>
+<style>
+.topic-section { display:grid; grid-template-columns:minmax(0,1.9fr) minmax(0,1fr); column-gap:32px; align-items:start; }
+.topic-content { min-width:0; }
+.topic-picture { margin:6px 0 0; border:1px solid var(--gold); background:#f5f5f5; overflow:hidden; }
+.topic-picture img { display:block; width:100%; height:auto; aspect-ratio:3/2; object-fit:cover; }
+.topic-content .downloads { grid-template-columns:repeat(2,minmax(0,1fr)); }
+@media(min-width:1200px) { .topic-content .downloads { grid-template-columns:repeat(4,minmax(0,1fr)); } .topic-content .downloads .resource-action {padding:13px 9px;font-size:14px;} }
+@media(max-width:820px) { .topic-section {grid-template-columns:1fr;row-gap:24px;} .topic-picture {margin:0;max-width:560px;width:100%;} }
+</style><style>
+.hero-inner { display:grid; grid-template-columns:minmax(0,1.6fr) minmax(0,1fr); align-items:center; gap:40px; }
+.hero-copy { min-width:0; }
+.causation-hero-picture { margin:0; border:1px solid var(--gold); overflow:hidden; }
+.causation-hero-picture img { display:block; width:100%; height:auto; aspect-ratio:3/2; object-fit:cover; }
+@media(max-width:820px) { .hero-inner { grid-template-columns:1fr; gap:26px; } .causation-hero-picture { width:100%; max-width:560px; } }
+</style><style>
+/* Align topic images with the heading and the bottom of the video buttons. */
+@media(min-width:821px) {
+  .topic-content { display:contents; }
+  .topic-section h2 { grid-column:1; grid-row:1; }
+  .topic-description { grid-column:1; grid-row:2; }
+  .topic-content .downloads { grid-column:1; grid-row:3; }
+  .topic-content .video-links { grid-column:1; grid-row:4; }
+  .topic-content .section-nav { grid-column:1 / -1; grid-row:5; }
+  .topic-picture { grid-column:2; grid-row:1 / 5; align-self:stretch; margin:0; position:relative; min-height:0; }
+  .topic-picture img { position:absolute; inset:0; width:100%; height:100%; aspect-ratio:auto; object-fit:cover; }
+}
+</style></head>
+
+<body>
+<a class="skip-link" href="#topics" style="position:absolute;left:-10000px" onfocus="this.style.left='16px'" onblur="this.style.left='-10000px'">Skip to topics</a>
+<nav class="topbar" aria-label="Primary navigation"><div class="topbar-inner"><a class="brand" href="index.html#tort-law"><span>The Law of Tort</span><img class="tort-mark" src="tort-header-symbol.png" alt="" width="37" height="40"></a><a class="back-link" href="index.html">Legal English</a></div></nav>
+<header class="hero"><div class="hero-inner"><div class="hero-copy"><h1>The Standard of Care</h1><div class="gold-rule" aria-hidden="true"></div><p class="intro">Explore five topics on breach and the standard of care in negligence. Begin with Breach of Duty, develop the reasonable-person and professional standards, then apply them to risk and precautions. Each topic offers study guides in four languages and videos on YouTube and Bilibili.</p></div><figure class="causation-hero-picture"><img src="care-overview.webp" alt="A balance scale and legal notebook representing reasonable care and responsibility." width="1536" height="1024" decoding="async" fetchpriority="high"></figure></div></header>
+<main id="topics"><header class="section-head"><h2>Choose a Topic</h2></header>
+<nav class="topic-picker" aria-label="Standard of care topics in study order">
+<a class="topic-choice" href="#breach-of-duty"><span><span class="step">TOPIC 01</span>Breach of Duty</span><span class="arrow" aria-hidden="true">→</span></a>
+<a class="topic-choice" href="#standard-of-care"><span><span class="step">TOPIC 02</span>The Standard of Care</span><span class="arrow" aria-hidden="true">→</span></a>
+<a class="topic-choice" href="#reasonable-person-test"><span><span class="step">TOPIC 03</span>Reasonable Person Test</span><span class="arrow" aria-hidden="true">→</span></a>
+<a class="topic-choice" href="#bolam-test"><span><span class="step">TOPIC 04</span>The Bolam Test</span><span class="arrow" aria-hidden="true">→</span></a>
+<a class="topic-choice" href="#applying-the-standard"><span><span class="step">TOPIC 05</span>Applying the Standard of Care</span><span class="arrow" aria-hidden="true">→</span></a>
+</nav>
+<section class="topic-section" id="breach-of-duty" aria-labelledby="title-breach-of-duty"><div class="topic-content"><h2 id="title-breach-of-duty">01. Breach of Duty</h2><p class="topic-description">Distinguish a duty from its breach, identify the required level of care, and understand why breach alone does not establish a negligence claim.</p><div class="downloads" aria-label="Study guides for Breach of Duty">
+<a class="resource-action" href="Breach_of_Duty_EN.pdf" target="_blank" rel="noopener" aria-label="English PDF: Breach of Duty">English PDF</a>
+<a class="resource-action" href="Breach_of_Duty_ZH.pdf" target="_blank" rel="noopener" aria-label="Chinese PDF: Breach of Duty">Chinese PDF</a>
+<a class="resource-action" href="Breach_of_Duty_DE.pdf" target="_blank" rel="noopener" aria-label="German PDF: Breach of Duty">German PDF</a>
+<a class="resource-action" href="Breach_of_Duty_IT.pdf" target="_blank" rel="noopener" aria-label="Italian PDF: Breach of Duty">Italian PDF</a>
+</div><div class="video-links">
+<a class="resource-action" href="https://www.youtube.com/watch?v=IXULwVvBaUw&amp;list=PLqMxKp2ot-3vkhLMfRLmAuRbe0X7ywKoX&amp;index=22" target="_blank" rel="noopener noreferrer" aria-label="YouTube video: Breach of Duty">YouTube</a>
+<a class="resource-action" href="https://www.bilibili.com/video/BV1DWpK68EQL/?spm_id_from=333.1387.homepage.video_card.click&amp;vd_source=38b42b6c9cd2d2d8ab9256c9c228cb35" target="_blank" rel="noopener noreferrer" aria-label="Bilibili video: Breach of Duty">Bilibili</a>
+</div><nav class="section-nav" aria-label="Navigation after Breach of Duty"><a href="#topics">↑ All topics</a>
+<a href="#standard-of-care">Next: The Standard of Care →</a>
+</nav></div><figure class="topic-picture"><img src="care-breach.webp" alt="A wet-floor sign in a university corridor representing reasonable safety precautions." width="1536" height="1024" loading="lazy" decoding="async"></figure></section>
+<section class="topic-section" id="standard-of-care" aria-labelledby="title-standard-of-care"><div class="topic-content"><h2 id="title-standard-of-care">02. The Standard of Care</h2><p class="topic-description">Explore the objective standard through Blyth, Glasgow Corporation v Muir and Nettleship v Weston, with the facts, outcomes and reasons for each decision.</p><div class="downloads" aria-label="Study guides for The Standard of Care">
+<a class="resource-action" href="The_Standard_of_Care_EN.pdf" target="_blank" rel="noopener" aria-label="English PDF: The Standard of Care">English PDF</a>
+<a class="resource-action" href="The_Standard_of_Care_ZH.pdf" target="_blank" rel="noopener" aria-label="Chinese PDF: The Standard of Care">Chinese PDF</a>
+<a class="resource-action" href="The_Standard_of_Care_DE.pdf" target="_blank" rel="noopener" aria-label="German PDF: The Standard of Care">German PDF</a>
+<a class="resource-action" href="The_Standard_of_Care_IT.pdf" target="_blank" rel="noopener" aria-label="Italian PDF: The Standard of Care">Italian PDF</a>
+</div><div class="video-links">
+<a class="resource-action" href="https://www.youtube.com/watch?v=rtXnhoG4ius&amp;list=PLqMxKp2ot-3vkhLMfRLmAuRbe0X7ywKoX&amp;index=23" target="_blank" rel="noopener noreferrer" aria-label="YouTube video: The Standard of Care">YouTube</a>
+<a class="resource-action" href="https://www.bilibili.com/video/BV1DWpK68Ev6/?spm_id_from=333.1387.homepage.video_card.click&amp;vd_source=38b42b6c9cd2d2d8ab9256c9c228cb35" target="_blank" rel="noopener noreferrer" aria-label="Bilibili video: The Standard of Care">Bilibili</a>
+</div><nav class="section-nav" aria-label="Navigation after The Standard of Care"><a href="#topics">↑ All topics</a>
+<a href="#reasonable-person-test">Next: Reasonable Person Test →</a>
+</nav></div><figure class="topic-picture"><img src="care-standard.webp" alt="A careful driver approaching a pedestrian crossing in rain, representing care in context." width="1536" height="1024" loading="lazy" decoding="async"></figure></section>
+<section class="topic-section" id="reasonable-person-test" aria-labelledby="title-reasonable-person-test"><div class="topic-content"><h2 id="title-reasonable-person-test">03. Reasonable Person Test</h2><p class="topic-description">Examine the reasonable-person benchmark and the age-appropriate standard for children, including Mullin v Richards and the limits of inexperience.</p><div class="downloads" aria-label="Study guides for Reasonable Person Test">
+<a class="resource-action" href="Reasonable_Person_Test_EN.pdf" target="_blank" rel="noopener" aria-label="English PDF: Reasonable Person Test">English PDF</a>
+<a class="resource-action" href="Reasonable_Person_Test_ZH.pdf" target="_blank" rel="noopener" aria-label="Chinese PDF: Reasonable Person Test">Chinese PDF</a>
+<a class="resource-action" href="Reasonable_Person_Test_DE.pdf" target="_blank" rel="noopener" aria-label="German PDF: Reasonable Person Test">German PDF</a>
+<a class="resource-action" href="Reasonable_Person_Test_IT.pdf" target="_blank" rel="noopener" aria-label="Italian PDF: Reasonable Person Test">Italian PDF</a>
+</div><div class="video-links">
+<a class="resource-action" href="https://www.youtube.com/watch?v=NgB0bwpZkF8&amp;list=PLqMxKp2ot-3vkhLMfRLmAuRbe0X7ywKoX&amp;index=24" target="_blank" rel="noopener noreferrer" aria-label="YouTube video: Reasonable Person Test">YouTube</a>
+<a class="resource-action" href="https://www.bilibili.com/video/BV1QppK6cEoT/?spm_id_from=333.1387.homepage.video_card.click&amp;vd_source=38b42b6c9cd2d2d8ab9256c9c228cb35" target="_blank" rel="noopener noreferrer" aria-label="Bilibili video: Reasonable Person Test">Bilibili</a>
+</div><nav class="section-nav" aria-label="Navigation after Reasonable Person Test"><a href="#topics">↑ All topics</a>
+<a href="#bolam-test">Next: The Bolam Test →</a>
+</nav></div><figure class="topic-picture"><img src="care-reasonable.webp" alt="Two school rulers on a desk representing the facts of Mullin v Richards." width="1536" height="1024" loading="lazy" decoding="async"></figure></section>
+<section class="topic-section" id="bolam-test" aria-labelledby="title-bolam-test"><div class="topic-content"><h2 id="title-bolam-test">04. The Bolam Test</h2><p class="topic-description">Study professional competence under Bolam, logical scrutiny under Bolitho, and informed patient choice under Montgomery, with the clarification in McCulloch.</p><div class="downloads" aria-label="Study guides for The Bolam Test">
+<a class="resource-action" href="The_Bolam_Test_EN.pdf" target="_blank" rel="noopener" aria-label="English PDF: The Bolam Test">English PDF</a>
+<a class="resource-action" href="The_Bolam_Test_ZH.pdf" target="_blank" rel="noopener" aria-label="Chinese PDF: The Bolam Test">Chinese PDF</a>
+<a class="resource-action" href="The_Bolam_Test_DE.pdf" target="_blank" rel="noopener" aria-label="German PDF: The Bolam Test">German PDF</a>
+<a class="resource-action" href="The_Bolam_Test_IT.pdf" target="_blank" rel="noopener" aria-label="Italian PDF: The Bolam Test">Italian PDF</a>
+</div><div class="video-links">
+<a class="resource-action" href="https://www.youtube.com/watch?v=j_k-gNQROiI&amp;list=PLqMxKp2ot-3vkhLMfRLmAuRbe0X7ywKoX&amp;index=25" target="_blank" rel="noopener noreferrer" aria-label="YouTube video: The Bolam Test">YouTube</a>
+<a class="resource-action" href="https://www.bilibili.com/video/BV1qjHm6pEZo/?spm_id_from=333.1387.upload.video_card.click&amp;vd_source=38b42b6c9cd2d2d8ab9256c9c228cb35" target="_blank" rel="noopener noreferrer" aria-label="Bilibili video: The Bolam Test">Bilibili</a>
+</div><nav class="section-nav" aria-label="Navigation after The Bolam Test"><a href="#topics">↑ All topics</a>
+<a href="#applying-the-standard">Next: Applying the Standard of Care →</a>
+</nav></div><figure class="topic-picture"><img src="care-bolam.webp" alt="A physician discussing care with an adult patient, representing professional judgment and informed choice." width="1536" height="1024" loading="lazy" decoding="async"></figure></section>
+<section class="topic-section" id="applying-the-standard" aria-labelledby="title-applying-the-standard"><div class="topic-content"><h2 id="title-applying-the-standard">05. Applying the Standard of Care</h2><p class="topic-description">Apply reasonable care to the facts: compare Bolton v Stone and The Wagon Mound (No 2), weighing likelihood, seriousness and practical precautions.</p><div class="downloads" aria-label="Study guides for Applying the Standard of Care">
+<a class="resource-action" href="Applying_the_Standard_of_Care_EN.pdf" target="_blank" rel="noopener" aria-label="English PDF: Applying the Standard of Care">English PDF</a>
+<a class="resource-action" href="Applying_the_Standard_of_Care_ZH.pdf" target="_blank" rel="noopener" aria-label="Chinese PDF: Applying the Standard of Care">Chinese PDF</a>
+<a class="resource-action" href="Applying_the_Standard_of_Care_DE.pdf" target="_blank" rel="noopener" aria-label="German PDF: Applying the Standard of Care">German PDF</a>
+<a class="resource-action" href="Applying_the_Standard_of_Care_IT.pdf" target="_blank" rel="noopener" aria-label="Italian PDF: Applying the Standard of Care">Italian PDF</a>
+</div><div class="video-links">
+<a class="resource-action" href="https://www.youtube.com/watch?v=AQauZuovW5w&amp;list=PLqMxKp2ot-3vkhLMfRLmAuRbe0X7ywKoX&amp;index=26" target="_blank" rel="noopener noreferrer" aria-label="YouTube video: Applying the Standard of Care">YouTube</a>
+<a class="resource-action" href="https://www.bilibili.com/video/BV1ZjHm6pEsp/?spm_id_from=333.1387.upload.video_card.click&amp;vd_source=38b42b6c9cd2d2d8ab9256c9c228cb35" target="_blank" rel="noopener noreferrer" aria-label="Bilibili video: Applying the Standard of Care">Bilibili</a>
+</div><nav class="section-nav" aria-label="Navigation after Applying the Standard of Care"><a href="#topics">↑ All topics</a>
+</nav></div><figure class="topic-picture"><img src="care-applying.webp" alt="A cricket ball and bat near a boundary fence representing risk assessment in Bolton v Stone." width="1536" height="1024" loading="lazy" decoding="async"></figure></section>
+<footer class="page-footer"><nav class="section-nav" aria-label="Related Tort Law topics"><a href="index.html#tort-law">← Back to The Law of Tort</a><a href="tort-psychiatric-injury.html">Psychiatric Injury</a><a href="tort-economic-loss.html">Economic Loss &amp; Negligent Misstatement</a><a href="tort-causation.html">Causation</a></nav></footer></main></body></html>
